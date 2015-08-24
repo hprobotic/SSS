@@ -35,9 +35,12 @@ h4 {
 }
 
 .section {
-    padding: 100px 0;
+    padding: 60px 0;
     text-align: center;
-    min-height: 620px;
+    min-height: 654px;
+}
+.section.active {
+    padding-top: 80px;
 }
 #section-1 {
     background: #6dcff6;
@@ -78,7 +81,7 @@ h4 {
 
 }
 #section-1 .email {
-    margin-top: 72px;
+    margin-top: 50px;
 }
 .email .input-group {
     margin: 0 auto;
@@ -116,7 +119,7 @@ h4 {
     border: 1px solid #fff;
 }
 .content-block {
-    margin-top: 70px;
+    margin-top: 45px;
 }
 .icn-group {
     padding-top: 10px;
@@ -144,7 +147,9 @@ h4 {
 }
 .intro_slide_frame {
     position: relative;
-    text-align: center;
-    height: 160px;
+    text-align: center; 
     overflow: hidden;
+}
+.section.active h2 {
+
 }
